@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<!--This is the comaparisons page and I give the tables a background color-->
+		<title>Comparisons</title>
+		<link rel="stylesheet" href="css/site_style.css" />
+		<style type="text/css"> 
+			th, td {
+				background-color: #dddddd;}
+		</style>
+	</head>
+	<body>
+		<div class="comaparisons">
+			<header>
+				<h1>Comparisons</h1>
+				<nav>
+					<!--This is a table for mustangs and gives miles per gallon and engine sizes and torque and horsepower numbers.-->
+					<p><a href="home.html">Home</a></p>
+				</nav>
+			</header>		
+			<!--I give the table cellpadding and cellspacing I also did headings and coloum spanning.-->
+			<section class="models">
+				<article>
+					<table width="600" cellpadding="15" cellspacing="6">
+						<tr>
+							<th width="120">Mustang</th>
+							<th scope="col">2.3L</th>
+							<th scope="col">5.0L</th>
+							<th scope="col">5.2L</th>
+							<th width="120" scope="col">5.2L Supercharged</th>
+						</tr>
+						<tr>
+							<th scope="row">MPG</th>
+							<td>21/31</td>
+							<td>15/25</td>
+							<td colspan="2">14/21</td>
+						</tr>
+						<tr>
+							<th scope="row">Torque (lbs ft)</th>
+							<td>350</td>
+							<td>420</td>
+							<td>429</td>
+							<td>625</td>
+						</tr>
+						<tr>
+							<th scope="row">Horsepower</th>
+							<td>310</td>
+							<td>460-480</td>
+							<td>526-527</td>
+							<td>760</td>
+						</tr>
+					</table>
+				</article>
+				<article>	
+				<hr />
+				<br />
+				<!--This is the end of the mustang table and the start of the camaro table which has the same information but also includes row spanning.-->
+					<table width="600" cellpadding="15" cellspacing="6" border="3" bgcolor="#cfcfcf">
+						<tr>
+							<th width="120">Camaro</th>
+							<th scope="col">2.0L</th>
+							<th scope="col">3.6L</th>
+							<th scope="col">6.2L</th>
+							<th width="120" scope="col">6.2L supercharged</th>
+						</tr>
+						<tr>
+							<th scope="row">MPG</th>
+							<td>20/31</td>
+							<td>19/29</td>
+							<td colspan="2">13/27</td>
+						</tr>
+						<tr>
+							<th scope="row">Torque (lbs ft)</th>
+							<td>295</td>
+							<td>284</td>
+							<td rowspan="2">455</td>
+							<td rowspan="2">650</td>
+						</tr>
+						<tr>
+							<th scope="row">Horsepower</th>
+							<td>275</td>
+							<td>335</td>
+						</tr>
+					</table>
+					<!--This is the end of both tables.-->
+				</article>
+			</section>
+		</div>
+		<hr />	
+		<footer>
+				Model Comparisons
+			</footer>			
+	</body>
+</html>		
+
+
+
